@@ -7,7 +7,6 @@ api-gateway/node_modules
 developer-service/node_modules
 developer-service/.vscode
 user-service/.vscode
-user-service/node_modules
 user-service/.env
 escrow-service/.vscode
 escrow-service/node_modules
