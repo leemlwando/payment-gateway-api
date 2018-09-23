@@ -51,7 +51,7 @@ module.exports = {
                                                             return {success:false,msg:"unable to deduct funds from your account, please try again some other time"}
                                                         }
 
-                                                        return {success:true,rec,sen }
+                                                        return {success:true,sender:rec,reciever:sen }
                                                     }).catch(err=>err)
                                         })
                                             .catch(err=>err)
